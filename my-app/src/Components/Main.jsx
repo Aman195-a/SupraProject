@@ -1,14 +1,10 @@
-// <<<<<<< HEAD
-import React from 'react'
-import { App } from '../App'
-
 import React from 'react';
 import './Main.css';
 
 import Img1 from './Img1.png'; // Top-left
 import Img2 from './Img2.png'; // Top-right
 import Img3 from './Img3.png'; // Bottom-left
-// >>>>>>> 1fd8dc2423a4ef8c65f25e4a53c17e1b7d55c12b
+
 
 const Main = () => {
   return (
