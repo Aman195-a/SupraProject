@@ -57,3 +57,56 @@ h3{
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    .event-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    padding: 5px;
+    place-items: center;
+}
+
+.card-box{
+    width: 180px;
+    height: auto;
+   padding: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+
+h3{
+    font-size: 12px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: double;
+}
+.time-location{
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -20px;
+
+}
+.type-text{
+    font-size: 12px;
+}
+.type-event p{
+    font-size: 10px;
+
+}
+.time-location h4{
+    font-size: 10px;
+}
+.time-location p{
+    font-size: 12px;
+}
+
+
+
+
+
+}
