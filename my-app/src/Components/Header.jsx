@@ -21,10 +21,10 @@ const Header = () => {
       </div>
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/courses">Courses</Link></li>
-          <li><Link to="/events">Events</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#course">Courses</a></li>
+          <li><a href="#event">Events</a></li>
+          <li><Link to="#contact">Contact</Link></li>
           <li><Link to="/signin">Login</Link></li>
         </ul>
       </nav>

@@ -6,7 +6,7 @@ const Events1 = () => {
   return (
     <>
     
-        <h1> Our Services</h1>
+        <h1 className="service-header"> Our Services</h1>
 
         <div className="all-boxes">
           {allshow.map((item, index) => (
@@ -30,19 +30,19 @@ export default Events1;
 const allshow = [
   {
     heading: "Explore Courses",
-    info: "choose from hundreds of online courses covering a variety of topics",
+    info: "Discover expert-led courses across tech, business, design, and more.",
     img: "/Image1.jpg",
   },
 
   {
     heading: "Find Events",
-    info: "choose from hundreds of online courses covering a variety of topics",
+    info: "Attend webinars, workshops, and expos happening near you or online.",
     img: "/Image2.jpg",
   },
 
   {
     heading: "Make Network",
-    info: "choose from hundreds of online courses covering a variety of topics",
+    info: "Connect with professionals and grow your industry network.",
     img: "/Image3.jpg",
   },
 ];

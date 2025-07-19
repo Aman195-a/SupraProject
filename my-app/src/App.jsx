@@ -8,8 +8,10 @@ import { Review } from './Components/Reviews';
 import CourseSection from './Components/CourseSection';
 import { Detailed } from './Components/Detailed';
 import SignIn from './Components/SignIn';
+import { CoursesEvent } from './Pages/Courses';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CourseCard from './Components/CourseCard';
 
 function App() {
   return (
@@ -20,8 +22,8 @@ function App() {
         <Route path="/" element={
           <>
             <Main />
-            <Course />
-            <CourseSection />
+            
+            
             <Events1 />
             <Detailed />
             <Review />
@@ -31,6 +33,8 @@ function App() {
 
         {/* SignIn Page Route */}
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/courses" element={<CourseSection/>} />
+        <Route path="/events" element={<CoursesEvent />} />
       </Routes>
     </Router>
   );

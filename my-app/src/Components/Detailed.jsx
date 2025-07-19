@@ -1,8 +1,9 @@
 import "./Detailed.css"
+import { NavLink } from "react-router-dom";
 export const Detailed=()=>{
     return(
         <>
-        <section className="detail-container">
+        <section className="detail-container" id="course">
 
             {alldetail.map((item,index)=>(
                 <div className="boxes">
@@ -12,7 +13,7 @@ export const Detailed=()=>{
                         <img src={item.image}alt={item.title} />
                         <p>{item.description}</p>
                     </div>
-                    <button className="btn">{item.btnText} →</button>
+                    <button className="btn"><NavLink to ={item.path}>{item.btnText} →</NavLink></button>
                 </div>
             ))}
         </section>
@@ -32,7 +33,8 @@ const alldetail = [
     title:"Explore Courses",
     description: "Explore top-rated courses and events designed to power your career in tech.",
     image: "/explore.jpg",
-    btnText: "Get Started"
+    btnText: "Get Started",
+     path: "/courses"
   },
   
   {
@@ -40,7 +42,8 @@ const alldetail = [
     title:"Upcoming Events",
     description: "Explore top-rated courses and events designed to power your career in tech.",
     image: "/upcomin.jpg",
-    btnText: "Explore Event"
+    btnText: "Explore Event",
+       path: "/events"
   },
 
  
