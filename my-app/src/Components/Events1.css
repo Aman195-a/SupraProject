@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #e3e1e5, #933ab3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 20px 0;
+}
+ .all-boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 10px;
+   margin-bottom: 3rem;
+    background-color: white;
+    height: auto;
+ }
+.box{
+    height: 200px;
+    width: 300px;
+    padding:10px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+ .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ }
+
+ img{
+    height: 170px;
+    width: 230px;
+ }
+ .services-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+ }
