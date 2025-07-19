@@ -69,10 +69,7 @@ export const Review = () => {
 
   return (
            <>
-    <div className="review-heading">
-         <h1> Experience With Us</h1>
-          
-    </div>
+  
 
 
     <section className= "light-reviewbox">

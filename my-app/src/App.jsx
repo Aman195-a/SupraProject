@@ -6,7 +6,7 @@ import Course from './Components/Course'
 import {Footer} from './Components/Footer';
 import { Review } from './Components/Reviews';
 import CourseSection from './Components/CourseSection';
-
+import { Detailed } from './Components/Detailed';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
    <Course/>
    <CourseSection/>
    <Events1/>
+   <Detailed />
    <Review />
    <Footer/>
    
