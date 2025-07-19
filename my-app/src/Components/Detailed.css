@@ -1,0 +1,50 @@
+.detail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+margin-top: 90px;
+   
+}
+.boxes h3{
+    text-align: center;
+      font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.boxes{
+    height: auto;
+    padding: 20px;
+    width: 400px;
+  box-shadow: 5px 6px 3px 5px grey;
+  border-radius: 8px;
+}
+
+.side-by-side{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.side-by-side{
+    font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ .btn{
+width: fit-content;
+padding: 8px;
+background-color:greenyellow ;
+color: white;
+border: none;
+font-weight: 600;
+font-size: 25px;
+text-align: center;
+border-radius: 8px;
+cursor: pointer;
+}

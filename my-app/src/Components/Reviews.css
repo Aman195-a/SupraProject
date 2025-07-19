@@ -1,4 +1,4 @@
-.light-reviewbox, .dark-reviewbox {
+.light-reviewbox {
   padding: 40px 20px;
   width: 100%;
   background-color: var(--bg-color);
@@ -9,9 +9,6 @@
   --bg-color: #f9f9f9;
 }
 
-.dark-reviewbox {
-  --bg-color: #1e1e1e;
-}
 
 .mySwiper {
   width: 100%;
@@ -25,7 +22,7 @@
   align-items: stretch;
 }
 
-.light-card, .dark-card {
+.light-card{
   width: 100%;
   max-width: 350px;
   padding: 20px;
@@ -39,10 +36,6 @@
   color: #333;
 }
 
-.dark-card {
-  background-color: #2d2d2d;
-  color: white;
-}
 
 .img-card {
   display: flex;
@@ -89,12 +82,7 @@
     margin-top: 20px;
     font-weight: 900;
 }
-.dark-arrow{
-    color: whitesmoke;
-    font-size: 30px;
-    margin-top: 20px;
-    font-weight: 900;
-}
+
 
 
  .review-heading h1{

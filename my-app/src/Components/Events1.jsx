@@ -5,7 +5,7 @@ import React from "react";
 const Events1 = () => {
   return (
     <>
-      <section className="services-container">
+    
         <h1> Our Services</h1>
 
         <div className="all-boxes">
@@ -20,7 +20,7 @@ const Events1 = () => {
           ))}
           ;
         </div>
-      </section>
+      
     </>
   );
 };
