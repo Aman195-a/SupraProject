@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <main className="main-section">
       <div className="main-content">
-        <h1>Discover Courses and Events</h1>
+        <h1 >Discover Courses and Events</h1>
         <p>Explore a variety of courses and find events that match your interests.</p>
         <button className="explore-btn">Explore</button>
       </div>
