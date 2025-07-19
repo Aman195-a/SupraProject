@@ -1,10 +1,11 @@
 import React from 'react';
+import { PiStudentBold } from "react-icons/pi";
 import './Header.css';
 
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">EduEventHub</div>
+      <div className="logo"><span id="footerlogo"><PiStudentBold /></span>EduEventHub</div>
       <nav className="nav">
         <ul>
           <li><a href="#">Home</a></li>
