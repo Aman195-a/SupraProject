@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="footer-container">
         {/* Brand Section */}
         <div className="footer-section">
-          <h1 className="footer-title"><span id="footerlogo"><PiStudentBold /></span>EduEventHub</h1>
+          <h1 className="footer-title"><span id="footerlog"><PiStudentBold /></span>EduEventHub</h1>
           <p className="footer-text">
             Discover courses and events that inspire learning and growth. Join
             us and explore new opportunities!
