@@ -1,0 +1,24 @@
+.course-section {
+  background-color: #7b4df3;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.course-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .course-section h2 {
+    font-size: 28px;
+  }
+}
