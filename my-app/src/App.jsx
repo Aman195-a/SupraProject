@@ -9,7 +9,7 @@ import CourseSection from './Components/CourseSection';
 import { Detailed } from './Components/Detailed';
 import SignIn from './Components/SignIn';
 import { CoursesEvent } from './Pages/Courses';
-
+import { AddEvent } from './Pages/AddEvent';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CourseCard from './Components/CourseCard';
 
@@ -35,6 +35,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/courses" element={<CourseSection/>} />
         <Route path="/events" element={<CoursesEvent />} />
+        <Route path="/add" element={<AddEvent />} />
       </Routes>
     </Router>
   );

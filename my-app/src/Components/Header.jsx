@@ -23,7 +23,7 @@ const Header = () => {
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#course">Courses</a></li>
-          <li><a href="#event">Events</a></li>
+          <li><Link to="/add" className='btn-add'> Add Events</Link></li>
           <li><Link to="#contact">Contact</Link></li>
           <li><Link to="/signin">Login</Link></li>
         </ul>

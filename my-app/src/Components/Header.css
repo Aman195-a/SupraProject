@@ -55,6 +55,14 @@
   color: #ffe;
 }
 
+.btn-add{
+  width: fit-content;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .header {
