@@ -1,9 +1,9 @@
 import React from 'react';
 import './Main.css';
 
-import Img1 from './img1.png'; 
-import Img2 from './img2.png'; 
-import Img3 from "./img3.png"
+import Img1 from './Img1.png'; 
+import Img2 from './Img2.png'; 
+import Img3 from "./Img3.png"
 import Img4 from "./img4.png"
 
 const Main = () => {
